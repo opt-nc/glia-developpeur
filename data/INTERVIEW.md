@@ -6,7 +6,7 @@ de **mieux cerner les spécificités du poste de Développeur au GLIA.**
 ## 🧑‍🤝‍🧑 Organsiation du travail et collaboration
 
 - "Est-t-il possible de travailler à distance ?"
-- "Oui, à hauteur maximum de 2 jours maximum par semaine et sur des créneaux horaires convenus à l'avance, à l'exceptiondu jeudi après-midi où la présence est sur site est exigée."
+- "Oui, à hauteur de 2 jours maximum par semaine et sur des créneaux horaires convenus à l'avance, à l'exceptiondu jeudi après-midi où la présence est sur site est exigée."
 
 
 - "Pourquoi le jeudi après-midi est-il obligatoire ?"
