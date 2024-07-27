@@ -12,6 +12,9 @@ de **mieux cerner les spécificités du poste de Développeur au GLIA.**
 - "Pourquoi le jeudi après-midi est-il obligatoire ?"
 - "Ce créneau est réservé à l'unique SCRUM hebdomadaire, et aux échanges informels entre les membres de l'équipe ainsi qu'aux sujets d'innovation."
 
+- "Utilisez-vous SCRUM pour organiser le travail du bureau?"
+- "Non, nous sommes sur la méthode Kanban, plus adaptée à la nature et la variété des missions du bureau."
+
 ## 🙏 Valeurs de l'équipe
 
 Quelle sont les qualités attendues au sein de l'équipe ?
