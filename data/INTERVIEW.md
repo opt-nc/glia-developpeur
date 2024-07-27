@@ -90,7 +90,7 @@ Dès la première semaine il vous sera demandé de:
 
 
 - "Utilisez-vous des bases de données NoSQL ?"
-- "Oui, à ce jour de l'OpenSearch, du consul, du Neo4J."
+- "Oui, à ce jour de l'OpenSearch et sdu Neo4J."
 
 
 - "Utilisez-vous du Python ?... et si oui, pour quoi faire ?"
