@@ -1,7 +1,9 @@
 # ❔ A propos
 
-Cette repo est dédiée à l'AVP de développeur au GLIA et a pour objectif de **concentrer en un unique lieu 
-les ressources utiles à cet AVP afin d'en optimiser la portée.**
+Cette repo est dédiée à la description des missions d'un développeur au GLIA.
+L'objectif est de **concentrer en un unique lieu** toutes ces informations afin 
+de pouvoir les exploter de manière optimale,.. par exemple de répondre efficacement
+à des AVP (Avis de Vacance de Poste) afin d'en optimiser la portée.
 
 # 🔖 Ressources
 
