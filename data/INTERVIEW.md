@@ -110,7 +110,9 @@ Dès la première semaine il vous sera demandé de:
 -  "J'aime me former en continu : quelles sont les opportunités dans ce domaine?"
 -  "Pour se former, l'innovation est au coeur de nos activités. En plus de cela, nous bénéficions de faciliter par exemple via Google Cloud Skills Boost. Les formations sont toujours effectuées juste avant une mise en pratique et sont donc liées aux problématiques remontées depuis le terrain, les collaborateurs, les incidents éventuels ou les projets."
 
-  
+- "Je suis très bon en Kotlin, node, Flutter, Vuejs, Nextjs : est-ce que je peux décider de développer dessus ?"
+- "Le processus d'adoption de nouvelles briques sur notre chaîne de BUILD et **pipeline DevOPS est une partie extrêmement sensible** car elle impacte notre productivité et notre capacité à rendre durablement... à un coût minimal mais pour délivrer un service optimal. Donc non, on ne décide pas comme cela de choisir une nouvelle techno "cool", en revanche les problématiques de productivité, de sécurité et de durabilité de la maintenance du SI sont regardées avec un très grand soin et au final tranchées par le responsable du bureau puisqu'au final ce sera l'ensemble de l'équipe qui sera impactée au quotidien. Lors de nouveaux choix, on teste sur des périmètres très restreints et avec un sens aigu du partage des avancées et du feedback."
+
 ## 🧑‍🚀 Culture de l'innovation
 
 - "J'ai cru comprendre que l'innovation était une valeur forte de l'équipe, comment cela se traduit-il ?"
