@@ -104,6 +104,12 @@ Dès la première semaine il vous sera demandé de:
 - "La sécurité et la dette technique sont au coeur de nos préoccupations. Nous utilisons dependabot pour nous aider et `grype` pour choisir les images de base sur lesquelles nous nous appuyons par la suite, voir : "
 -  Par exemple, notre choix pour Kafka https://dev.to/optnc/kafka-image-wurstmeister-vs-bitnami-efg ou encore celui de Java : https://dev.to/optnc/bench-and-choose-java-8-docker-images-with-anchoregrype-4fg8
 
+-  "Je fais du Kubernetes : en faites-vous ?"
+-  "Kubernetes est entrain de rentrer sur notre stack, **mais pour l'instant pas pour faire de la production**. Nous avons fait le choix de Google Anthos. Nous avons préparé quelques HELM charts et déployé des applications en mode développement via Argo CD. Notre priorité est actuellement de finaliser le tournant vers la conteneurisation et l'automatisation qui va avec. Toutefois, oui, vous pourrez mettre à profit (et développer) vos compétences pour par exemple déployer des applications sur notre environnement de développement, en partageant et en répondant à des problématiques du bureau. Sur les postes de développeurs, nous privilégions MicroK8s. Et pour tester en mode innovation publique nous utilisons la plateforme Killercoda, pour cela regarder la page de notre organisation : https://killercoda.com/opt-labs/"
+
+-  "J'aime me former en continu : quelles sont les opportunités dans ce domaine?"
+-  "Pour se former, l'innovation est au coeur de nos activités. En plus de cela, nous bénéficions de faciliter par exemple via Google Cloud Skills Boost. Les formations sont toujours effectuées juste avant une mise en pratique et sont donc liées aux problématiques remontées depuis le terrain, les collaborateurs, les incidents éventuels ou les projets."
+
   
 ## 🧑‍🚀 Culture de l'innovation
 
