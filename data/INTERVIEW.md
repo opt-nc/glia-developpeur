@@ -124,6 +124,8 @@ Dès la première semaine il vous sera demandé de:
 - "J'adore faire du `Go` : pourrai-je en faire ?"
 - "Les logiciels que nous maintenons en interne sont sur la stack Java/Python. Toutefois, pour l'innovation externe, et à condition de respecter les règles du jeu, oui, cela est tout à fait possible, par exemple pour développer des produits clients de nos APIs publiques sur APIGEE, cf https://dev.to/adriens/mobitag-go-hackathon-2024-06-22-week-end-2n16". Cela peut également se traduire en innovations dans le cadre DevOPS
 
+- "Je fais de l'IoT : est-t-il possible d'en faire ?"
+- "La vocation du bureau n'est pas de faire de l'IoT. En revanche, il peut être possible d'organiser des intégrations dans la mesure où elles permettent d'optimiser la productivité des collaborateurs, de mettre en valeur une API, une technologie. Ci-après quelques exemples de réalisations autour de système de notification de courrier ou de boîtes postales se reposant sur des services en cloud : https://www.hackster.io/354529/mailbox-notifier-ed6dba, https://www.hackster.io/adriensales/legacy-mailbox-sms-notifier-ec6d4b. Du matériel perso peut être mis à disposition mais le cadrage de ces prototypes doit être cadré de manière drastique, toujours dans la philosphie LEAN. Généralement on fait cela dans un cadre de Team Building. On peut utiliser de l'Arduino, du Seeed, les matrices de LED, du eInk,... et bien sûr les APIs publiques de l'OPT ;-p"
 
 
 ## 🥇 Comment se démarquer
