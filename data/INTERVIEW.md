@@ -33,7 +33,7 @@ Dès la première semaine il vous sera demandé de:
 
 1. **Comprendre la culture du bureau** via le blog : https://dev.to/optnc2.
 2. **Comprendre et installer** la cartographie du système d'information : https://dev.to/optnc/our-speech-about-it-holism-at-nodes22-1bpl
-3. **Choisir une distribution Linux** pour votre poste de travail, motiver le choix et la faire valider auprès de l'équipe
+3. **Choisir une distribution Linux basée sur Ubuntu `LTS` (Linux Mint, Pop!_OS, Kubuntu,...)** pour votre poste de travail, motiver le choix et la faire valider
 4. **Prendre en charge un projet d'innovation** qui vous sera proposé et que vous devrez mener à bien de bout en bout, dans le respect des méthodes et outils de l'équipe: ce projet sera votre fil rouge pour votre intégration
 5. **Participer** au premier SCRUM et présenter vos avancées
 
