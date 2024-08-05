@@ -14,3 +14,4 @@ de pouvoir les exploter de manière optimale,.. par exemple de répondre efficac
 - [📜 AVP "Concepteur développeur génie logiciel inter-applicatif
 à la direction des systèmes d’information"](https://bit.ly/3zQsk2n)
 - [🤖 ChatBOT HuggingChat dédié](https://bit.ly/4da7Ct9)
+- [📝 Blog Post : 🧑‍💼 Recruitment assistant: why, howto & long term continuous benefits](https://dev.to/optnc/recruitment-assistant-why-howto-long-term-continuous-benefits-4bcf)
