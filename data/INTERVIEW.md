@@ -5,15 +5,17 @@ de **mieux cerner les spécificités du poste de Développeur au GLIA.**
 
 ## 🧑‍🤝‍🧑 Organsiation du travail et collaboration
 
-- "Est-t-il possible de travailler à distance ?"
-- "Oui, à hauteur de 2 jours maximum par semaine et sur des créneaux horaires convenus à l'avance, à l'exceptiondu jeudi après-midi où la présence est sur site est exigée."
+Ci-dessous un exemple de Questions (Q)/ Réponses (R):
+
+- Q: "Est-t-il possible de travailler à distance ?"
+- R: "Oui, à hauteur de 2 jours maximum par semaine et sur des créneaux horaires convenus à l'avance, à l'exceptiondu jeudi après-midi où la présence est sur site est exigée."
 
 
-- "Pourquoi le jeudi après-midi est-il obligatoire ?"
-- "Ce créneau est réservé à l'unique SCRUM hebdomadaire, et aux échanges informels entre les membres de l'équipe ainsi qu'aux sujets d'innovation."
+- Q: "Pourquoi le jeudi après-midi est-il obligatoire ?"
+- R: "Ce créneau est réservé à l'unique SCRUM hebdomadaire, et aux échanges informels entre les membres de l'équipe ainsi qu'aux sujets d'innovation."
 
-- "Utilisez-vous SCRUM pour organiser le travail du bureau?"
-- "Non, nous sommes sur la méthode Kanban, plus adaptée à la nature et la variété des missions du bureau."
+- Q: "Utilisez-vous SCRUM pour organiser le travail du bureau?"
+- R: "Non, nous sommes sur la méthode Kanban, plus adaptée à la nature et la variété des missions du bureau."
 
 ## 🙏 Valeurs de l'équipe
 
@@ -40,103 +42,107 @@ Dès la première semaine il vous sera demandé de:
 
 ## 🧰 La stack technique
 
-- "Quelle est la stack Java utilisée ?"
-- "Nous utilions Maven pour builder, Quarkus pour les microservices et batches, et maintenons des applications Spring Boot historiques... en cours de migration vers Quarkus."
+Ci-dessous un exemple de Questions (Q)/ Réponses (R):
+
+- Q: "Quelle est la stack Java utilisée ?"
+- R: "Nous utilions Maven pour builder, Quarkus pour les microservices et batches, et maintenons des applications Spring Boot historiques... en cours de migration vers Quarkus."
 
 
-- "Quelle votre base de données relationnelle pour les développements spécifiques?"
-- "Nous utilisons PostgreSQL pour les développements spécifiques."
+- Q: "Quelle votre base de données relationnelle pour les développements spécifiques?"
+- R: "Nous utilisons PostgreSQL pour les développements spécifiques."
 
 
-- "Quels sont les outils que je vais devoir installer sur ma workstation?"
-- "Tous les outils de build, principalement Maven, Podman et Git, ainsi que les outils de développement Java, IntelliJ IDEA ou VSCode selon vos préférences."
+- Q: "Quels sont les outils que je vais devoir installer sur ma workstation?"
+- R: "Tous les outils de build, principalement Maven, Podman et Git, ainsi que les outils de développement Java, IntelliJ IDEA ou VSCode selon vos préférences."
 
 
-- "Utilisez-vous des containers ?"
-- "Oui, systématiquement, pour tout, partout et tout le temps. Nous utilisons Podman pour les containers, et Ansible/Tower pour les déploiements via des GtiHub actions déidées. Tout est systématiquement livré sous forme de containers, en continu via la regisrty ghcr.io de Github.com. Les tests sont également déroulées via des containers."
+- Q: "Utilisez-vous des containers ?"
+- R: "Oui, systématiquement, pour tout, partout et tout le temps. Nous utilisons Podman pour les containers, et Ansible/Tower pour les déploiements via des GtiHub actions déidées. Tout est systématiquement livré sous forme de containers, en continu via la regisrty ghcr.io de Github.com. Les tests sont également déroulées via des containers."
 
 
-- "Comment exécutez-vous les containers ?"
-- "DEVs et OPs partagent la même stack technique (de bout en bout), et les containers sont exécutés en local via Podman, et en production via Podman pour l'instant. Tout est automatisé via Ansible/Tower."
+- Q: "Comment exécutez-vous les containers ?"
+- R: "DEVs et OPs partagent la même stack technique (de bout en bout), et les containers sont exécutés en local via Podman, et en production via Podman pour l'instant. Tout est automatisé via Ansible/Tower."
 
 
-- "Quels sont les middleware utilisés ?"
-- "Le GLIA utilise Kafka (développement de producers, consumers, streams,...) pour les échanges asynchrones, et la haute disponibilité, Open Search pour les recherches full text et les logs, PostgreSQL pour les bases de données relationnelles, consul pour partager des configurations, Neo4J pour la cartographie du SI."
+- Q: "Quels sont les middleware utilisés ?"
+- R: "Le GLIA utilise Kafka (développement de producers, consumers, streams,...) pour les échanges asynchrones, et la haute disponibilité, Open Search pour les recherches full text et les logs, PostgreSQL pour les bases de données relationnelles, consul pour partager des configurations, Neo4J pour la cartographie du SI."
 
 
-- "Avec quoi buildez-vous vos applications ?"
-- "On builde avec Maven, et on teste avec JUnit, TestContainers (et d'autres frameworks cloud-natifs encore en cours d'intégration) via des actions Github et des workflows dédiés"
+- Q: "Avec quoi buildez-vous vos applications ?"
+- R: "On builde avec Maven, et on teste avec JUnit, TestContainers (et d'autres frameworks cloud-natifs encore en cours d'intégration) via des actions Github et des workflows dédiés"
 
 
-- Où sont gérées les issues ?
-- Les issues de support arrivent via un système de ticket externe que nous avons intégré à Github, et les issues de développement sont gérées via Github. Elles sont totalement liées au processus de build, de déploiement et de maintenance des applications.
+- Q: "Où sont gérées les issues ?"
+- R: "Les issues de support arrivent via un système de ticket externe que nous avons intégré à Github, et les issues de développement sont gérées via Github. Elles sont totalement liées au processus de build, de déploiement et de maintenance des applications."
 
 
-- "Quelle CI utilisez-vous ?"
-- "Nous utilisons tous les services mis à disposition par Github, et en particulier les actions Github pour les workflows de build, de test, de déploiement, et de maintenance."
+- Q: "Quelle CI utilisez-vous ?"
+- R: "Nous utilisons tous les services mis à disposition par Github, et en particulier les actions Github pour les workflows de build, de test, de déploiement, et de maintenance."
 
 
-- "Commment délivrez-vous vos applications ?"
-- "Nous délivrons nos images sur ghcr.io, l'automatication est faite via Ansible/Tower qui vient puller et démarrer les containers sur les serveurs d'intégration, qualification et production. Voir https://github.com/opt-nc/tower-deploy-action"
+- Q: "Commment délivrez-vous vos applications ?"
+- R: "Nous délivrons nos images sur ghcr.io, l'automatication est faite via Ansible/Tower qui vient puller et démarrer les containers sur les serveurs d'intégration, qualification et production. Voir https://github.com/opt-nc/tower-deploy-action"
 
 
-- "Comment documentez-vous vos APIs ?"
-- "Nous développons nos APIs avec Quarkus, nous générons la documentation en continu , notamment avec redocly, cf https://dev.to/optnc/api-documentation-release-automation-with-github-redocly-and-open-api-f6h"
+- Q: "Comment documentez-vous vos APIs ?"
+- R: "Nous développons nos APIs avec Quarkus, nous générons la documentation en continu , notamment avec redocly, cf https://dev.to/optnc/api-documentation-release-automation-with-github-redocly-and-open-api-f6h"
 
 
-- "Utilisez-vous Kafka ?"
-- "Oui, en permanence, Kafka est au coeur de l'ADN du bureau, pour les échanges asynchrones, la haute disponibilité, la scalabilité et l'interopérabilité."
+- Q: "Utilisez-vous Kafka ?"
+- R: "Oui, en permanence, Kafka est au coeur de l'ADN du bureau, pour les échanges asynchrones, la haute disponibilité, la scalabilité et l'interopérabilité."
 
 
-- "Faites-vous de la data science ?"
-- "Oui, nous mettons un point d'honneur à décrire les choses avec des données, des APIs,...puis de les valoriser via des applications, des dashboards, des rapports, des analyses, des prédictions, des recommandations, des alertes,... Nous faisons cela avec du Python."
+- Q: "Faites-vous de la data science ?"
+- R: "Oui, nous mettons un point d'honneur à décrire les choses avec des données, des APIs,...puis de les valoriser via des applications, des dashboards, des rapports, des analyses, des prédictions, des recommandations, des alertes,... Nous faisons cela avec du Python."
 
 
-- "Utilisez-vous des bases de données NoSQL ?"
-- "Oui, à ce jour de l'OpenSearch et sdu Neo4J."
+- Q: "Utilisez-vous des bases de données NoSQL ?"
+- R: "Oui, à ce jour de l'OpenSearch et sdu Neo4J."
 
 
-- "Utilisez-vous du Python ?... et si oui, pour quoi faire ?"
-- "Oui, pour la datascience, les analyses, des automatisations ou au sein de la CI/CD pour automatiser des traitements, des tests, des déploiements."
+- Q: "Utilisez-vous du Python ?... et si oui, pour quoi faire ?"
+- R: "Oui, pour la datascience, les analyses, des automatisations ou au sein de la CI/CD pour automatiser des traitements, des tests, des déploiements."
 
 
-- "Sécurisez-vous vos artefacts/images docker... et si oui, comment ?"
-- "La sécurité et la dette technique sont au coeur de nos préoccupations. Nous utilisons dependabot pour nous aider et `grype` pour choisir les images de base sur lesquelles nous nous appuyons par la suite, voir : "
--  Par exemple, notre choix pour Kafka https://dev.to/optnc/kafka-image-wurstmeister-vs-bitnami-efg ou encore celui de Java : https://dev.to/optnc/bench-and-choose-java-8-docker-images-with-anchoregrype-4fg8
+- Q: "Sécurisez-vous vos artefacts/images docker... et si oui, comment ?"
+- R: "La sécurité et la dette technique sont au coeur de nos préoccupations. Nous utilisons dependabot pour nous aider et `grype` pour choisir les images de base sur lesquelles nous nous appuyons par la suite. Par exemple, notre choix pour Kafka https://dev.to/optnc/kafka-image-wurstmeister-vs-bitnami-efg ou encore celui de Java : https://dev.to/optnc/bench-and-choose-java-8-docker-images-with-anchoregrype-4fg8
 
--  "Je fais du Kubernetes : en faites-vous ?"
--  "Kubernetes est entrain de rentrer sur notre stack, **mais pour l'instant pas pour faire de la production**. Nous avons fait le choix de Google Anthos. Nous avons préparé quelques HELM charts et déployé des applications en mode développement via Argo CD. Notre priorité est actuellement de finaliser le tournant vers la conteneurisation et l'automatisation qui va avec. Toutefois, oui, vous pourrez mettre à profit (et développer) vos compétences pour par exemple déployer des applications sur notre environnement de développement, en partageant et en répondant à des problématiques du bureau. Sur les postes de développeurs, nous privilégions MicroK8s. Et pour tester en mode innovation publique nous utilisons la plateforme Killercoda, pour cela regarder la page de notre organisation : https://killercoda.com/opt-labs/"
+-  Q: "Je fais du Kubernetes : en faites-vous ?"
+-  R: "Kubernetes est entrain de rentrer sur notre stack, **mais pour l'instant pas pour faire de la production**. Nous avons fait le choix de Google Anthos. Nous avons préparé quelques HELM charts et déployé des applications en mode développement via Argo CD. Notre priorité est actuellement de finaliser le tournant vers la conteneurisation et l'automatisation qui va avec. Toutefois, oui, vous pourrez mettre à profit (et développer) vos compétences pour par exemple déployer des applications sur notre environnement de développement, en partageant et en répondant à des problématiques du bureau. Sur les postes de développeurs, nous privilégions MicroK8s. Et pour tester en mode innovation publique nous utilisons la plateforme Killercoda, pour cela regarder la page de notre organisation : https://killercoda.com/opt-labs/"
 
--  "J'aime me former en continu : quelles sont les opportunités dans ce domaine?"
--  "Pour se former, l'innovation est au coeur de nos activités. En plus de cela, nous bénéficions de faciliter par exemple via Google Cloud Skills Boost. Les formations sont toujours effectuées juste avant une mise en pratique et sont donc liées aux problématiques remontées depuis le terrain, les collaborateurs, les incidents éventuels ou les projets."
+-  Q: "J'aime me former en continu : quelles sont les opportunités dans ce domaine?"
+-  R: "Pour se former, l'innovation est au coeur de nos activités. En plus de cela, nous bénéficions de faciliter par exemple via Google Cloud Skills Boost. Les formations sont toujours effectuées juste avant une mise en pratique et sont donc liées aux problématiques remontées depuis le terrain, les collaborateurs, les incidents éventuels ou les projets."
 
-- "Je suis très bon en Kotlin, node, Flutter, Vuejs, Nextjs : est-ce que je peux décider de développer dessus ?"
-- "Le processus d'adoption de nouvelles briques sur notre chaîne de BUILD et **pipeline DevOPS est une partie extrêmement sensible** car elle impacte notre productivité et notre capacité à rendre durablement... à un coût minimal mais pour délivrer un service optimal. Donc non, on ne décide pas comme cela de choisir une nouvelle techno "cool", en revanche les problématiques de productivité, de sécurité et de durabilité de la maintenance du SI sont regardées avec un très grand soin et au final tranchées par le responsable du bureau puisqu'au final ce sera l'ensemble de l'équipe qui sera impactée au quotidien. Lors de nouveaux choix, on teste sur des périmètres très restreints et avec un sens aigu du partage des avancées et du feedback."
+- Q: "Je suis très bon en Kotlin, node, Flutter, Vuejs, Nextjs : est-ce que je peux décider de développer dessus ?"
+- R: "Le processus d'adoption de nouvelles briques sur notre chaîne de BUILD et **pipeline DevOPS est une partie extrêmement sensible** car elle impacte notre productivité et notre capacité à rendre durablement... à un coût minimal mais pour délivrer un service optimal. Donc non, on ne décide pas comme cela de choisir une nouvelle techno "cool", en revanche les problématiques de productivité, de sécurité et de durabilité de la maintenance du SI sont regardées avec un très grand soin et au final tranchées par le responsable du bureau puisqu'au final ce sera l'ensemble de l'équipe qui sera impactée au quotidien. Lors de nouveaux choix, on teste sur des périmètres très restreints et avec un sens aigu du partage des avancées et du feedback."
 
 ## 🧑‍🚀 Culture de l'innovation
 
-- "J'ai cru comprendre que l'innovation était une valeur forte de l'équipe, comment cela se traduit-il ?"
-- "Oui, tout à fait et nous la mettons en oeuvre au quotidien.  Nous sommes adeptes du _"Eating your own dog food"_. Nous mettons un point d'honneur à innover pour pouvoir répondre à des problématiques du quotidien pour nous ou nos clients. Les sujets sont décidés au sein de l'équipe et sont souvent issus de difficultés rencontrées lors du BUILD ou RUN. Les résultats sont systématiquement documentés, démontrés et s'ils ne devaient mener à rien, alors c'est dans un mode de "fail fast" que nous les abandonnons. Le critère de mise à l'échelle de l'innovation est central pour nous."
+Ci-dessous un exemple de Questions (Q)/ Réponses (R):
+
+- Q: "J'ai cru comprendre que l'innovation était une valeur forte de l'équipe, comment cela se traduit-il ?"
+- R: "Oui, tout à fait et nous la mettons en oeuvre au quotidien.  Nous sommes adeptes du _"Eating your own dog food"_. Nous mettons un point d'honneur à innover pour pouvoir répondre à des problématiques du quotidien pour nous ou nos clients. Les sujets sont décidés au sein de l'équipe et sont souvent issus de difficultés rencontrées lors du BUILD ou RUN. Les résultats sont systématiquement documentés, démontrés et s'ils ne devaient mener à rien, alors c'est dans un mode de "fail fast" que nous les abandonnons. Le critère de mise à l'échelle de l'innovation est central pour nous."
 
 
-- "J'ai des compétences en `Machine Learning`, aurai-je l'opportunité les mettre en oeuvre ?"
-- "Nous avons énormément investi à constituer des jeux de données de qualité, des APIs efficaces et disponibles. Des travaux dans ce domaines sont en cours, toujours dans le but de faire plus, avec moins d'effort. Vous pourrez par exemple contribuer aux travaux que nous exposerons lors de #NODES24 cf https://x.com/rastadidi/status/1814417785952649288"
+- Q: "J'ai des compétences en `Machine Learning`, aurai-je l'opportunité les mettre en oeuvre ?"
+- R: "Nous avons énormément investi à constituer des jeux de données de qualité, des APIs efficaces et disponibles. Des travaux dans ce domaines sont en cours, toujours dans le but de faire plus, avec moins d'effort. Vous pourrez par exemple contribuer aux travaux que nous exposerons lors de #NODES24 cf https://x.com/rastadidi/status/1814417785952649288"
 
 
-- "J'adore faire du `Go` : pourrai-je en faire ?"
-- "Les logiciels que nous maintenons en interne sont sur la stack Java/Python. Toutefois, pour l'innovation externe, et à condition de respecter les règles du jeu, oui, cela est tout à fait possible, par exemple pour développer des produits clients de nos APIs publiques sur APIGEE, cf https://dev.to/adriens/mobitag-go-hackathon-2024-06-22-week-end-2n16". Cela peut également se traduire en innovations dans le cadre DevOPS
+- Q: "J'adore faire du `Go` : pourrai-je en faire ?"
+- R: "Les logiciels que nous maintenons en interne sont sur la stack Java/Python. Toutefois, pour l'innovation externe, et à condition de respecter les règles du jeu, oui, cela est tout à fait possible, par exemple pour développer des produits clients de nos APIs publiques sur APIGEE, cf https://dev.to/adriens/mobitag-go-hackathon-2024-06-22-week-end-2n16". Cela peut également se traduire en innovations dans le cadre DevOPS
 
-- "Je fais de l'IoT : est-t-il possible d'en faire ?"
-- "La vocation du bureau n'est pas de faire de l'IoT. En revanche, il peut être possible d'organiser des intégrations dans la mesure où elles permettent d'optimiser la productivité des collaborateurs, de mettre en valeur une API, une technologie. Ci-après quelques exemples de réalisations autour de système de notification de courrier ou de boîtes postales se reposant sur des services en cloud : https://www.hackster.io/354529/mailbox-notifier-ed6dba, https://www.hackster.io/adriensales/legacy-mailbox-sms-notifier-ec6d4b. Du matériel perso peut être mis à disposition mais le cadrage de ces prototypes doit être cadré de manière drastique, toujours dans la philosphie LEAN. Généralement on fait cela dans un cadre de Team Building. On peut utiliser de l'Arduino, du Seeed, les matrices de LED, du eInk,... et bien sûr les APIs publiques de l'OPT ;-p"
+- Q: "Je fais de l'IoT : est-t-il possible d'en faire ?"
+- R: "La vocation du bureau n'est pas de faire de l'IoT. En revanche, il peut être possible d'organiser des intégrations dans la mesure où elles permettent d'optimiser la productivité des collaborateurs, de mettre en valeur une API, une technologie. Ci-après quelques exemples de réalisations autour de système de notification de courrier ou de boîtes postales se reposant sur des services en cloud : https://www.hackster.io/354529/mailbox-notifier-ed6dba, https://www.hackster.io/adriensales/legacy-mailbox-sms-notifier-ec6d4b. Du matériel perso peut être mis à disposition mais le cadrage de ces prototypes doit être cadré de manière drastique, toujours dans la philosphie LEAN. Généralement on fait cela dans un cadre de Team Building. On peut utiliser de l'Arduino, du Seeed, les matrices de LED, du eInk,... et bien sûr les APIs publiques de l'OPT ;-p"
 
-- "Je programme des jeux/moteurs 3d sur mon temps libre (Unity/Blender) : je pourrais mettre mes compétences au service du bureau ?"
-- "Cela ne fait en effet pas partie de la stack du bureau. En revanche, pour du dataviz, cela pourrait être utilisé, par exemple pour mettre en évidence le potentiel de certaines données ou APIs. Par exemple, les réalisation de data-art réalisées sur les temps d'attente en agence : https://dev.to/adriens/series/18414"
+- Q: "Je programme des jeux/moteurs 3d sur mon temps libre (Unity/Blender) : je pourrais mettre mes compétences au service du bureau ?"
+- R: "Cela ne fait en effet pas partie de la stack du bureau. En revanche, pour du dataviz, cela pourrait être utilisé, par exemple pour mettre en évidence le potentiel de certaines données ou APIs. Par exemple, les réalisation de data-art réalisées sur les temps d'attente en agence : https://dev.to/adriens/series/18414"
 
-- "Je vois que vous avez écrit des articles : devrai-je en écrire, aurai-je l'opportunité d'en écrire moi-même ?"
-- "En effet, nous postons des articles à porté publique sur https://dev.to/optnc. Oui, je vous demanderai d'en écrire, dans le but de développer le sens de la synthèse, de partager efficacement et durablement les connaissances acquises et qui seront par la suite mises en oeuvre à l'échelle, par exemple https://dev.to/optnc/api-marketplaces-innovation-explained-and-showcased-li1, https://dev.to/optnc/effortless-data-quality-wduckdb-on-github-2mkb, https://dev.to/optnc/ridet-nc-api-service-mesh-api-on-top-of-heterogeneous-open-data-4c3b, https://dev.to/optnc/follow-delivery-in-new-caledonia-with-rapidapi-4bh9, https://dev.to/optnc/sending-flat-files-to-kafka-2n06, https://dev.to/optnc/get-started-with-apigee-management-55dg, https://dev.to/optnc/better-collab-flows-w-git-conventional-commits-49j8. La production d'un article est le fruit d'un processus complet qui nous permet de progresser à plusieurs... et avec un standard de qualité que j'aime à qualifier d'international puisque appicable partout, y compris hors du contexte de l'office."
+- Q: "Je vois que vous avez écrit des articles : devrai-je en écrire, aurai-je l'opportunité d'en écrire moi-même ?"
+- R: "En effet, nous postons des articles à porté publique sur https://dev.to/optnc. Oui, je vous demanderai d'en écrire, dans le but de développer le sens de la synthèse, de partager efficacement et durablement les connaissances acquises et qui seront par la suite mises en oeuvre à l'échelle, par exemple https://dev.to/optnc/api-marketplaces-innovation-explained-and-showcased-li1, https://dev.to/optnc/effortless-data-quality-wduckdb-on-github-2mkb, https://dev.to/optnc/ridet-nc-api-service-mesh-api-on-top-of-heterogeneous-open-data-4c3b, https://dev.to/optnc/follow-delivery-in-new-caledonia-with-rapidapi-4bh9, https://dev.to/optnc/sending-flat-files-to-kafka-2n06, https://dev.to/optnc/get-started-with-apigee-management-55dg, https://dev.to/optnc/better-collab-flows-w-git-conventional-commits-49j8. La production d'un article est le fruit d'un processus complet qui nous permet de progresser à plusieurs... et avec un standard de qualité que j'aime à qualifier d'international puisque applicable partout, y compris hors du contexte de l'office."
+
 ## 🥇 Comment se démarquer
 
-Le procesus pour candidater est celui décrit sur l'AVP... toutefois, **si vous voulez faire la différence**,
+Le procesus pour candidater au bureau (pour un AVP ou un stage par exemple) est très normé... toutefois, **si vous voulez faire la différence**,
 vous pouvez venir avec un projet personnel à présenter et qui s'appuierait sur des APIs ou données publiées
 par notre office telles que : 
 
