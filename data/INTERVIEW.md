@@ -57,7 +57,7 @@ Ci-dessous un exemple de Questions (Q)/ Réponses (R):
 
 
 - Q: "Utilisez-vous des containers ?"
-- R: "Oui, systématiquement, pour tout, partout et tout le temps. Nous utilisons Podman pour les containers, et Ansible/Tower pour les déploiements via des GtiHub actions déidées. Tout est systématiquement livré sous forme de containers, en continu via la regisrty ghcr.io de Github.com. Les tests sont également déroulées via des containers."
+- R: "Oui, systématiquement, pour tout, partout et tout le temps. Nous utilisons Podman pour les containers, et Ansible/Tower pour les déploiements via des GtiHub actions déidées. Tout est systématiquement livré sous forme de containers, en continu via la registry ghcr.io de Github.com. Les tests sont également déroulées via Testcontainers (https://testcontainers.com/)."
 
 
 - Q: "Comment exécutez-vous les containers ?"
@@ -115,6 +115,20 @@ Ci-dessous un exemple de Questions (Q)/ Réponses (R):
 
 - Q: "Je suis très bon en Kotlin, node, Flutter, Vuejs, Nextjs : est-ce que je peux décider de développer dessus ?"
 - R: "Le processus d'adoption de nouvelles briques sur notre chaîne de BUILD et **pipeline DevOPS est une partie extrêmement sensible** car elle impacte notre productivité et notre capacité à rendre durablement... à un coût minimal mais pour délivrer un service optimal. Donc non, on ne décide pas comme cela de choisir une nouvelle techno "cool", en revanche les problématiques de productivité, de sécurité et de durabilité de la maintenance du SI sont regardées avec un très grand soin et au final tranchées par le responsable du bureau puisqu'au final ce sera l'ensemble de l'équipe qui sera impactée au quotidien. Lors de nouveaux choix, on teste sur des périmètres très restreints et avec un sens aigu du partage des avancées et du feedback."
+
+## 🔍 La stack de test logiciel
+
+Le test logiciel occupe une place très importante au bureau puisque c'est grâce à elle que nous pouvons délivrer très rapidement et en continu des évolutions ou dérouler notre processus de maintenance. En C'est la stack de test qui nous permet de faire cela et ainsi réduire le "Time to Market".
+En particulier, **nous faisons notre maximum pour éradiquer les tests en `e2e` au profit de tests d'intégration continue** et conteneurisés sur la partie dont nous avons la charge.
+
+Pour les TUs (tests unitaires), nous utilisons
+- Junit,
+- jacoco (https://www.eclemma.org/jacoco) pour mesurer le taux de couverture,
+- Les testcontainers, docker et images natives,
+- Les matrices (https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/using-a-matrix-for-your-jobs#using-a-matrix-strategy) sur Github afin de tester différentes versions d'OS, de Java ou de bases de données,...,
+- Tests via Embeddedkafka (en cours de migration vers autre technologie),
+- Tests à venir via Microcks (https://microcks.io/)
+
 
 ## 🧑‍🚀 Culture de l'innovation
 
