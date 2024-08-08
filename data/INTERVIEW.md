@@ -116,6 +116,9 @@ Ci-dessous un exemple de Questions (Q)/ Réponses (R):
 - Q: "Je suis très bon en Kotlin, node, Flutter, Vuejs, Nextjs : est-ce que je peux décider de développer dessus ?"
 - R: "Le processus d'adoption de nouvelles briques sur notre chaîne de BUILD et **pipeline DevOPS est une partie extrêmement sensible** car elle impacte notre productivité et notre capacité à rendre durablement... à un coût minimal mais pour délivrer un service optimal. Donc non, on ne décide pas comme cela de choisir une nouvelle techno "cool", en revanche les problématiques de productivité, de sécurité et de durabilité de la maintenance du SI sont regardées avec un très grand soin et au final tranchées par le responsable du bureau puisqu'au final ce sera l'ensemble de l'équipe qui sera impactée au quotidien. Lors de nouveaux choix, on teste sur des périmètres très restreints et avec un sens aigu du partage des avancées et du feedback."
 
+-  Q: "J'utilise une autre distribution qu'Ubuntu : je peux utiliser Fedora ou Arch ?"
+-  R: "Non, Ubuntu est la distribution de base que nous avons choisie ensemble entre DEVs et OPS. Nous avons mis des efforts importants pour documenter certaines configurations complexes à mettre en oeuvre afin de limiter les efforts collectifs."
+
 ## 🧑‍🚀 Culture de l'innovation
 
 Ci-dessous un exemple de Questions (Q)/ Réponses (R):
