@@ -57,7 +57,7 @@ Ci-dessous un exemple de Questions (Q)/ Réponses (R):
 
 
 - Q: "Utilisez-vous des containers ?"
-- R: "Oui, systématiquement, pour tout, partout et tout le temps. Nous utilisons Podman pour les containers, et Ansible/Tower pour les déploiements via des GtiHub actions déidées. Tout est systématiquement livré sous forme de containers, en continu via la regisrty ghcr.io de Github.com. Les tests sont également déroulées via des containers."
+- R: "Oui, systématiquement, pour tout, partout et tout le temps. Nous utilisons Podman pour les containers, et Ansible/Tower pour les déploiements via des GtiHub actions déidées. Tout est systématiquement livré sous forme de containers, en continu via la registry ghcr.io de Github.com. Les tests sont également déroulées via Testcontainers (https://testcontainers.com/)."
 
 
 - Q: "Comment exécutez-vous les containers ?"
@@ -118,6 +118,19 @@ Ci-dessous un exemple de Questions (Q)/ Réponses (R):
 
 -  Q: "J'utilise une autre distribution qu'Ubuntu : je peux utiliser Fedora ou Arch ?"
 -  R: "Non, Ubuntu est la distribution de base que nous avons choisie ensemble entre DEVs et OPS. Nous avons mis des efforts importants pour documenter certaines configurations complexes à mettre en oeuvre afin de limiter les efforts collectifs."
+
+## 🔍 La stack de test logiciel
+
+Le test logiciel occupe une place très importante au bureau puisque c'est grâce à elle que nous pouvons délivrer très rapidement et en continu des évolutions ou dérouler notre processus de maintenance. En C'est la stack de test qui nous permet de faire cela et ainsi réduire le "Time to Market".
+En particulier, **nous faisons notre maximum pour éradiquer les tests en `e2e` au profit de tests d'intégration continue** et conteneurisés sur la partie dont nous avons la charge.
+
+Pour les TUs (tests unitaires), nous utilisons
+- Junit,
+- jacoco (https://www.eclemma.org/jacoco) pour mesurer le taux de couverture,
+- Les testcontainers, docker et images natives,
+- Les matrices (https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/using-a-matrix-for-your-jobs#using-a-matrix-strategy) sur Github afin de tester différentes versions d'OS, de Java ou de bases de données,...,
+- Tests via Embeddedkafka (en cours de migration vers autre technologie),
+- Tests à venir via Microcks (https://microcks.io/)
 
 ## 🧑‍🚀 Culture de l'innovation
 
