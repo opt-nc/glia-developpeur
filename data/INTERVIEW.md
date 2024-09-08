@@ -166,3 +166,11 @@ par notre office telles que :
 - **Les jeux de données et notebooks** Jupyter publiés sur Kaggle : https://www.kaggle.com/optnouvellecaldonie
 - **L'utilisation de nos images docker** pour réaliser un prototype innovant : https://hub.docker.com/u/optnc
 - **La connaissance des nos articles** sur notre blog : https://dev.to/optnc
+
+## 💼  Recrutement
+
+- Q: "Recrutez-vous actuellement?"
+- A: "Non, il n'y a pas d'AVP en cours pour le GLIA, je vous encourage à aller voir les AVPs et offres d'emplois : https://office.opt.nc/fr/emploi-et-carriere/rejoindre-l-opt-nc#avp-et-offres-d-emploi"
+
+- Q: "J'aimerai faire un stage: est-ce possible?"
+- A: "Pour cela il faut candidater. La préparation d'un dossier détaillant motivation et compétences est un prérequis"
