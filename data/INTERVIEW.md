@@ -47,10 +47,8 @@ Ci-dessous un exemple de Questions (Q)/ Réponses (R):
 - Q: "Quelle distribution Linux utilisez-vous ?"
 - R: "L'unique distriution Linux supportée au GLIA est Ubuntu"
 
-
 - Q: "Je suis fan de Pop!_OS et Linux Mint, c'est OK donc si je l'utilise au bureau ?"
 - R: "NON : l'unique distriution Linux supportée au GLIA est Ubuntu : : il est expressément demander de respecter cela. Si vous avez un environnement bureau préféré, alors il vous reviendra de le configruer."
-
 
 - Q: "Je suis fan de Arch : c'est OK donc si je l'utilise au bureau ?"
 - R: "NON : l'unique distriution Linux supportée au GLIA est Ubuntu : il est expressément demander de respecter cela."
@@ -59,7 +57,6 @@ Ci-dessous un exemple de Questions (Q)/ Réponses (R):
 - R: "NON : l'unique distriution Linux supportée au GLIA est Ubuntu : il est expressément demander de respecter cela."
  
 
-- 
 - Q: "Quelle est la stack Java utilisée ?"
 - R: "Nous utilions Maven pour builder, Quarkus pour les microservices et batches, et maintenons des applications Spring Boot historiques... en cours de migration vers Quarkus."
 
