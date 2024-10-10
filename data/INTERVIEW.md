@@ -45,7 +45,7 @@ Dès la première semaine il vous sera demandé de:
 Ci-dessous un exemple de Questions (Q)/ Réponses (R):
 
 - Q: "Quelle distribution Linux utilisez-vous ?"
-- R: "L'unique distriution Linux supportée au GLIA est Ubuntu"
+- R: "**L'unique distriution Linux supportée au GLIA est Ubuntu, et systématiquement dans sa dernière version LTS**. Il est également exigé de chiffrer l'intégralité du filesystem (Full disk encryption) et d'activer Ubuntu Pro."
 
 - Q: "Je suis fan de Pop!_OS et Linux Mint, c'est OK donc si je l'utilise au bureau ?"
 - R: "NON : l'unique distriution Linux supportée au GLIA est Ubuntu : : il est expressément demander de respecter cela. Si vous avez un environnement bureau préféré, alors il vous reviendra de le configruer."
