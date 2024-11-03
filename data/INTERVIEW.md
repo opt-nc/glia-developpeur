@@ -129,9 +129,20 @@ Ci-dessous un exemple de Questions (Q)/ Réponses (R):
 - Q: "Je suis très bon en Kotlin, node, Flutter, Vuejs, Nextjs : est-ce que je peux décider de développer dessus ?"
 - R: "Le processus d'adoption de nouvelles briques sur notre chaîne de BUILD et **pipeline DevOPS est une partie extrêmement sensible** car elle impacte notre productivité et notre capacité à rendre durablement... à un coût minimal mais pour délivrer un service optimal. Donc non, on ne décide pas comme cela de choisir une nouvelle techno "cool", en revanche les problématiques de productivité, de sécurité et de durabilité de la maintenance du SI sont regardées avec un très grand soin et au final tranchées par le responsable du bureau puisqu'au final ce sera l'ensemble de l'équipe qui sera impactée au quotidien. Lors de nouveaux choix, on teste sur des périmètres très restreints et avec un sens aigu du partage des avancées et du feedback."
 
--  Q: "J'utilise une autre distribution qu'Ubuntu : je peux utiliser Fedora ou Arch ?"
--  R: "Non, Ubuntu est la distribution de base que nous avons choisie ensemble entre DEVs et OPS. Nous avons mis des efforts importants pour documenter certaines configurations complexes à mettre en oeuvre afin de limiter les efforts collectifs."
+- Q: "J'utilise une autre distribution qu'Ubuntu : je peux utiliser Fedora ou Arch ?"
+- R: "Non, Ubuntu est la distribution de base que nous avons choisie ensemble entre DEVs et OPS. Nous avons mis des efforts importants pour documenter certaines configurations complexes à mettre en oeuvre afin de limiter les efforts collectifs."
 
+## Stack conteneurisation
+
+- Q: "Avec quoi exécutez-vous les conteneurs sur les postes de travail?"
+- R:"Avec podman et podman-compose qui sont des outils faciles d'accès"
+
+- Q: "Comment installez-vous podman?"
+- R: "Comme la plupart des outils, nous utilisons brew (et non pas apt) qui nous permet de bénéficer simplement et rapidement des mises à jour."
+
+- Q: "Comment installez-vous podman-compose?"
+- R: "Avec pip3 install podman-compose"
+  
 ## 🔍 La stack de test logiciel
 
 Le test logiciel occupe une place très importante au bureau puisque c'est grâce à elle que nous pouvons délivrer très rapidement et en continu des évolutions ou dérouler notre processus de maintenance. En C'est la stack de test qui nous permet de faire cela et ainsi réduire le "Time to Market".
