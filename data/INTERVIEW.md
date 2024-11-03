@@ -144,7 +144,7 @@ Ci-dessous un exemple de Questions (Q)/ Réponses (R):
 - R: "Avec pip3 install podman-compose"
 
 - Q: "Je préfère utiliser docker : je peux ?"
-- R: "Non. Il est demandé d'avoir des pratiques uniformes au sein du bureau et de les partager avec l'équipe afin de partager une culture commune: il est donc demandé de respecter ce choix technique."
+- R: "Non. Il est demandé d'avoir des pratiques uniformes au sein du bureau et de les partager avec l'équipe afin de partager une culture commune: il est donc demandé de respecter ce choix technique. Noter que podman est l'outil utilisé par les OPS pour exécuter nos images sur les VMs sur notre infrastructure."
   
 ## 🔍 La stack de test logiciel
 
